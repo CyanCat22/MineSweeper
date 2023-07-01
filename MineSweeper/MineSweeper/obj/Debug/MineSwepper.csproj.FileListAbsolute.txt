@@ -1,0 +1,9 @@
+D:\work\learn\cs\MineSwepper\MineSwepper\bin\Debug\MineSwepper.exe
+D:\work\learn\cs\MineSwepper\MineSwepper\bin\Debug\MineSwepper.pdb
+D:\work\learn\cs\MineSwepper\MineSwepper\obj\Debug\ResolveAssemblyReference.cache
+D:\work\learn\cs\MineSwepper\MineSwepper\obj\Debug\MineSwepper.Properties.Resources.resources
+D:\work\learn\cs\MineSwepper\MineSwepper\obj\Debug\MineSwepper.csproj.GenerateResource.Cache
+D:\work\learn\cs\MineSwepper\MineSwepper\obj\Debug\MineSwepper.exe
+D:\work\learn\cs\MineSwepper\MineSwepper\obj\Debug\MineSwepper.pdb
+D:\work\learn\cs\MineSwepper\MineSwepper\obj\Debug\MineSwepper.FormMainMine.resources
+D:\work\learn\cs\MineSwepper\MineSwepper\obj\Debug\MineSwepper.RandomNum.resources
