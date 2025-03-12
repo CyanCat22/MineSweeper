@@ -1,15 +1,15 @@
 # MineSweeper
 final assignment of c# course
 ## 思路：
-游戏区域内每个方块三个属性：是否揭开、是否有地雷、周围地雷的数量
-绘制所有方块 block : Button 类
-采用链表类型，方便难度切换、方块数量转换
-随机生成若干地雷 RandamMine
-绘制鼠标点击、移动、右键事件 MouseDown
-计算显示揭开方块周围地雷数量 UpdateMineCount
-递进揭开block附近非雷block OpenBlock
-揭开地雷时游戏失败 GameOver
-揭开所有非地雷方块时游戏胜利 GameSuccess
+- 游戏区域内每个方块三个属性：是否揭开、是否有地雷、周围地雷的数量
+- 绘制所有方块 block : Button 类
+- 采用链表类型，方便难度切换、方块数量转换
+- 随机生成若干地雷 RandamMine
+- 绘制鼠标点击、移动、右键事件 MouseDown
+- 计算显示揭开方块周围地雷数量 UpdateMineCount
+- 递进揭开block附近非雷block OpenBlock
+- 揭开地雷时游戏失败 GameOver
+- 揭开所有非地雷方块时游戏胜利 GameSuccess
 
 ## 核心方法：CreatMap-RandomMine-MouseDown-GameXxxx
 ## 测试
@@ -22,9 +22,9 @@ final assignment of c# course
 | 安全性测试     | SQL注入攻击雷区参数           | 系统拒绝非法输入        | P0         | `' OR 1=1 --` 等注入语句       | 需验证输入验证机制    |
 ## 细节美化：
 1.音乐：背景音乐（欢快的小曲），失败、胜利音效 可静音 IsSilence Media
-2.主题：主要针对笑脸图像变化 采用枚举类型GameTheme---face、fufu、dionsaur，可爱有趣的图标谁不爱啊！
-3.颜色：采用colorDialog，自由切换block颜色 
-4.难度：通过对地雷数量、block数量的变换来增加游戏难度 
-5.随机数字：新建RandomNum显示栏，输入数字范围，随机生成数字 RandomNum
-6.运气测试：生成的四个blocks中随机生成一个雷，检验运气的时候到啦嘿嘿！LuckTest
-7.计时功能：应用Timer，来计时
+2.主题：主要针对笑脸图像变化 采用枚举类型GameTheme---face、fufu、dionsaur，可爱有趣的图标谁不爱啊！  
+3.颜色：采用colorDialog，自由切换block颜色    
+4.难度：通过对地雷数量、block数量的变换来增加游戏难度    
+5.随机数字：新建RandomNum显示栏，输入数字范围，随机生成数字 RandomNum   
+6.运气测试：生成的四个blocks中随机生成一个雷，检验运气的时候到啦嘿嘿！LuckTest    
+7.计时功能：应用Timer，来计时    
